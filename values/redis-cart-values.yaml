@@ -1,0 +1,12 @@
+ 
+appName: cartservice 
+appReplicas: 1
+
+appImage: redis
+appVersion: alpine
+
+containerPort: 6379
+servicePort: 6379
+
+containerVars: {}
+serviceType: ClusterIP
